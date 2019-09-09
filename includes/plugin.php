@@ -86,7 +86,7 @@ class Plugin extends Extension{
      */
     public function register_funnel_steps($manager)
     {
-        $manager->add_step( new Role_Changed_Example() );
+        $manager->add_step( new Steps\MyRoleChanged() );
     }
 }
 

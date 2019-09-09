@@ -10,7 +10,7 @@ use Groundhogg\Step;
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 
-class Role_Changed_Example extends Benchmark
+class MyRoleChanged extends Benchmark
 {
 
    /**
